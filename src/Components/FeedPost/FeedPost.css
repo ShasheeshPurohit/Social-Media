@@ -1,0 +1,20 @@
+.comment-input{
+    outline: none;
+    border: 2px solid transparent
+}
+
+.comment-input:focus{
+    border: 2px solid purple;
+}
+
+.comment-post-btn{
+    outline: none;
+    transform: scale(0.9);
+    border-radius: 10px;
+    background: linear-gradient(-45deg,#9f69fe, #3f00b5);
+    transition: all 0.2s;
+}
+
+.comment-post-btn:active{
+    transform: scale(0.8);
+}

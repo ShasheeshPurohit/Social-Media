@@ -1,0 +1,22 @@
+.home-layout{
+    align-items: center;
+    overflow: hidden;
+}
+
+.brand-logo-container{
+    height: 10rem;
+    width: 10rem;
+}
+
+.home-btn:link,
+.home-btn:visited{
+    transition: all 0.2s;
+}
+
+.home-btn:link:active{
+    transform: scale(0.9);
+}
+
+.welcome-heading{
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,29 @@
+.signupForm{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6));
+    max-width: 20rem;
+    margin: auto;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 0;
+    
+}
+
+.signup-field{
+    max-width: 15rem;
+    margin: 0.5rem auto;
+}
+
+.signup-heading{
+    text-transform: uppercase;
+    color: rgb(226, 173, 0);
+    margin-bottom: 2rem;
+}
+
+.signup-btn{
+    margin: 1rem;
+}
+
+.signup-btn:hover{
+    color: white;
+}

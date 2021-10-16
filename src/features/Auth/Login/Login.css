@@ -1,0 +1,28 @@
+.login-layout{
+    align-items: center;
+}
+
+.login-field{
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    font-size: 1.2rem;
+}
+
+.login-box{
+    align-items: center;
+    background-color: black;
+}
+
+.login-field:focus{
+    border: 2px solid purple;
+    background-color: rgb(231, 231, 231);
+}
+
+.login-btn{
+    transition: all 0.2s;
+}
+
+.login-btn:active{
+    transform: scale(0.9);
+}

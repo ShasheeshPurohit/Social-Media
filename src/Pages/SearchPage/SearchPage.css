@@ -1,0 +1,7 @@
+.search-box-users{
+    transition: all 0.2s;
+}
+
+.search-box-users:focus{
+    border: 2px solid purple;
+}

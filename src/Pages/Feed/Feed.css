@@ -1,0 +1,43 @@
+.feed-layout{
+    overflow: hidden;
+    padding-top: 1rem;
+}
+
+.feed-display{
+    overflow-y: scroll;
+    background-color: rgba(221, 221, 221, 0.678);
+    padding-top: 2rem;
+    border-radius: 10px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.feed-display::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .feed-display {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+@media only screen and (max-width: 900px){
+    .other-users{
+        display: none;
+    }
+
+
+    .feed-layout{
+        width: 100%;
+        padding-top: 0;
+    }
+    
+    .feed-display{
+        width: 100%;
+    }
+
+    .feed-post-display{
+        width: 100%;
+    }
+}

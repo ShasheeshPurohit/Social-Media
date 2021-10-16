@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -36,4 +37,9 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+.app-screen{
+  height: 92vh;
+  overflow-y: hidden;
 }

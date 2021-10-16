@@ -1,0 +1,23 @@
+.user-card-name{
+    cursor: pointer;
+}
+
+.user-follow-btn{
+    outline: none;
+    transform: scale(0.9);
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.2s;
+}
+
+.user-follow-btn:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.user-follow-btn:active{
+    transform: scale(0.8);
+}

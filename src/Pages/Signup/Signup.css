@@ -1,0 +1,28 @@
+.signup-layout{
+    align-items: center;
+}
+
+.signup-field{
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid transparent;
+    font-size: 1.2rem;
+}
+
+.signup-box{
+    align-items: center;
+    background-color: black;
+}
+
+.signup-field:focus{
+    border: 2px solid purple;
+    background-color: rgb(231, 231, 231);
+}
+
+.signup-btn{
+    transition: all 0.2s;
+}
+
+.signup-btn:active{
+    transform: scale(0.9);
+}
