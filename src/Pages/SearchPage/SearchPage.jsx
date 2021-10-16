@@ -24,10 +24,11 @@ export default function SearchPage(){
             <div className="user-display mt-8 flex  w-full flex-wrap justify-center">
               
                     {status==="success" && allUsers?.slice(0,5).map((user)=>{
+                        
                         return(
-                            <div className="m-4 w-60">
-                                <UserCard user={user}/>
-                            </div>
+                            user._id===state.currentUser._id?"":<div className="m-4 w-60">
+                            <UserCard user={user}/>
+                        </div>
                         );
                     })}
                 
